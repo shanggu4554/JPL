@@ -1,0 +1,82 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(bg4.jpg);
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 5%;
+    padding-right: 8%;
+}
+.nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.background{
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: rgb(184, 221, 206);
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    transition: 0.4s ease-in-out;
+}
+
+.box1 {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    
+}
+h5{
+    margin-top: 5px;
+    color: rgb(184, 221, 206);
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+p{
+    color: rgb(184, 221, 206);
+    font-size: 16px;
+    line-height: 5px;
+    margin-bottom: 25px;
+}
+a{
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+a p:hover{
+    color: green;
+}
+
+a{
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+a p:hover{
+    color: green;
+}
